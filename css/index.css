@@ -4,6 +4,9 @@
 a{
   text-decoration: none;
 }
+.box{
+  display: flex;
+}
 
 /*=======================================
            common css e
@@ -108,23 +111,24 @@ a{
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
-  margin-left: 40px;
+  margin-left: 17px;
   color: white;
 }
-.content-hero{
+.hero-part .box{
   position: relative;
+  align-items: center;
+  display: inline-block;
 }
-.hero-part i{
+.hero-part .box i{
   position: absolute;
   color: white;
   font-size: 16px;
   bottom: 3px;
-  right: 250px;
+  right: -34px;
   transition: .4s ease-in-out;
 }
 .heroP-btn:hover + i{
-  right: 23px;
-  font-size: 30px;
+  right: -172px;
   opacity: 0;
 }
 
