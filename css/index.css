@@ -24,7 +24,7 @@ a{
 
 
 .contant-h2-p h2{
-  width: 405px;
+  width: auto;
   font-family: Poppins, sans-serif;
   line-height: 64px;
   font-weight: 600;
@@ -45,7 +45,7 @@ a{
   font-weight: 600;
   font-size: 32px;
 }
-.contant-h3-p p{
+.contant-h5-p p{
   width: 303px;
   font-family: Poppins, sans-serif;
   line-height: 28px;
@@ -181,12 +181,10 @@ a{
 
 
 .work-project{
-  padding-bottom: 349px;
   background: #F4F6FC;
 }
-.col-lg-5{
-  background: red;
-}
+
+
 .work-project .heroP-btn{
   color: #2405F2;
 }
@@ -204,6 +202,7 @@ a{
 .heroP-btn:hover i{
   right: -172px;
 }
+
 
 .work-project h2{
   padding-top: 128px;
@@ -223,6 +222,190 @@ a{
   object-fit: cover;
   object-position: center;
 }
+.forMarginWp{
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.right-Wp{
+  width: 328px;
+}
+.rightPart-Wp{
+  margin-top: 128px;
+}
+.right-down-wp{
+  margin-top: 48px;
+  margin-bottom: 129px;
+}
 /* =======================================
            work project css e
 =========================================  */
+
+/* =======================================
+          project img css s
+  ========================================= */
+
+.project-img{
+  /* background: #000; */
+  margin-bottom: 128px;
+}
+.project-img .project-img-top{
+  margin-top: 128px;
+  margin-bottom: 64px;
+}
+.project-img .box{
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.project-img .heroP-btn{
+  color: #282938;
+}
+.project-img .box{
+  position: relative;
+  align-items: center;
+}
+.project-img .box i{
+  color: #282938;
+  font-size: 16px;
+  bottom: 3px;
+  right: -34px;
+}
+.heroP-btn:hover i{
+  right: -172px;
+}
+
+
+
+.project-img .Card-p-i-1{
+  width: 843px;
+  height: 600px;
+}
+.project-img .overly-1{
+  width: 50%;
+  height: 100%;
+  padding: 312px 50px 76px 50px;
+  background: linear-gradient(to bottom right,
+        rgba(139, 134, 167, 0.8),
+        rgba(102, 83, 139, 0.8),
+        rgba(46, 49, 88, 0.8));
+}
+
+.project-img .overly-1 .title{
+  width: 313px;
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+.project-img .overly-1 .description{
+  width: 300px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  margin-top: 16px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.project-img .position-1object{
+  position: relative;
+}
+.project-img .overly-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Card-p-i-1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+.project-img .heroP-btn{
+  color: #FCD980;
+}
+.project-img .overly-1 .box{
+  position: relative;
+  align-items: center;
+  display: inline-block;
+}
+.project-img .overly-1 .box i{
+  color: #FCD980;
+  font-size: 16px;
+  bottom: 3px;
+  right: -34px;
+}
+.project-img .overly-1 .heroP-btn:hover i{
+  right: -172px;
+}
+
+
+
+.Card-p-2-3{
+  row-gap: 32px;
+}
+.Card-p-i-2{
+  width: 405px;
+  height: 284px;
+}
+.Card-p-i-2 img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.project-img .overly-2{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right,
+        rgba(139, 134, 167, 0.8),
+        rgba(102, 83, 139, 0.8),
+        rgba(46, 49, 88, 0.8));
+}
+
+.project-img .overly-2 .title{
+  width: 313px;
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+.project-img .overly-2 .description{
+  width: 300px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  margin-top: 16px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+
+.project-img .p-overly-2{
+  position: relative;
+}
+.project-img .p-overly-2 .overly-2{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.project-img .overly-2 .box i{
+  color: #FCD980;
+  font-size: 16px;
+  bottom: 3px;
+  right: 253px;
+}
+.project-img .overly-2 .heroP-btn:hover i{
+  right: 140px;
+}
+  /* =======================================
+          project img css e
+  ========================================= */
