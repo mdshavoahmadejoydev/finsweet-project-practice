@@ -52,6 +52,10 @@ a{
   font-weight: 400;
   font-size: 16px;
 }
+
+
+
+
 /*=======================================
            common css e
 =========================================*/
@@ -82,8 +86,6 @@ a{
   font-weight: 500;
   font-size: 16px;
   padding: 16px 47px;
-  width: 185px;
-  height: 60px;
   border-radius: 41px;
   color: white;
   border: 2px solid rgba(244, 246, 252, .2);
@@ -310,10 +312,17 @@ a{
 
 .project-img .position-1object{
   position: relative;
+  overflow: hidden;
+  
 }
 .project-img .overly-1{
   position: absolute;
   top: 0;
+  left: -439px;
+  transition: .3s ease-out;
+  
+}
+.project-img .position-1object:hover .overly-1{
   left: 0;
 }
 .Card-p-i-1 img{
@@ -361,6 +370,7 @@ a{
 .project-img .overly-2{
   width: 100%;
   height: 100%;
+  padding: 130px 40px 45px 40px;
   background: linear-gradient(to bottom right,
         rgba(139, 134, 167, 0.8),
         rgba(102, 83, 139, 0.8),
@@ -389,11 +399,16 @@ a{
 
 .project-img .p-overly-2{
   position: relative;
+  overflow: hidden;
+}
+.project-img .p-overly-2:hover .overly-2{
+  top: 0px;
 }
 .project-img .p-overly-2 .overly-2{
   position: absolute;
-  top: 0;
+  top: -286px;
   left: 0;
+  transition: .3s ease-out;
 }
 
 
@@ -401,11 +416,83 @@ a{
   color: #FCD980;
   font-size: 16px;
   bottom: 3px;
-  right: 253px;
+  right: 170px;
 }
 .project-img .overly-2 .heroP-btn:hover i{
-  right: 140px;
+  right: 83px;
 }
   /* =======================================
           project img css e
   ========================================= */
+
+/* =======================================
+        Design and solves img css s
+========================================= */
+.d-s-solve{
+  background: #F4F6FC;
+  padding-bottom: 128px;
+}
+.d-s-solve .contant-h2-p{
+width: 630px;
+margin: auto;
+margin-top: 168px;
+margin-bottom: 47px;
+}
+.d-s-solve .contant-h2-p h2{
+text-align: center;
+}
+.d-s-solve .icon{
+  width: 35px;
+  height: 35px;
+}
+.d-s-solve .icon img{
+  width: 100%;
+  height: 100%;
+}
+.d-s-solve h5{
+  font-size: 24px;
+  padding: 22px 0 12px 0;
+}
+
+
+.d-s-solve .d-s-solve-color{
+  background: rgb(255, 255, 255);
+  padding: 58px 32px 48px 32px;
+}
+.d-s-solve .col-lg-12{
+  padding: 58px 32px 48px 48px;
+}
+
+
+
+/* =======================================
+        Design and solves img css e
+========================================= */
+
+/* =======================================
+        client reviews css start
+========================================= */
+.clinet-reviews{
+  background: #F4F6FC;
+}
+.clinet-reviews h6{
+  font-family: Poppins, sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 56px;
+  width: 327px;
+  color: #282938;
+  margin-top: 130px;
+  margin-bottom: 16px;
+}
+.clinet-reviews .c-r-left p{
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 327px;
+  color: rgba(40, 41, 56, .7);
+}
+/* =======================================
+        client reviews css end
+========================================= */
