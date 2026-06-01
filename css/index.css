@@ -63,7 +63,6 @@ a{
   line-height: 28px;
 }
 
-.accordion
 
 
 
@@ -71,7 +70,6 @@ a{
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-right: 20px;
 }
 .client-profile .profile-img img{
   width: 100%;
@@ -79,6 +77,9 @@ a{
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
+}
+.client-profile .profile-title{
+  margin-left: 20px;
 }
 .client-profile .userName{
   font-family: Poppins, sans-serif;
