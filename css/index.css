@@ -31,7 +31,6 @@ a{
   font-size: 48px;
 }
 .contant-h2-p p{
-  width: 405px;
   font-family: Poppins, sans-serif;
   line-height: 28px;
   font-weight: 400;
@@ -39,21 +38,61 @@ a{
 }
 
 .contant-h5-p h5{
-  width: 328px;
   font-family: Poppins, sans-serif;
   line-height: 48px;
   font-weight: 600;
   font-size: 32px;
 }
 .contant-h5-p p{
-  width: 303px;
   font-family: Poppins, sans-serif;
   line-height: 28px;
   font-weight: 400;
   font-size: 16px;
 }
 
+.c-r-left-h6-p h6{
+  font-family: Poppins, sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.c-r-left-h6-p p{
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
 
+.accordion
+
+
+
+.client-profile .profile-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.client-profile .profile-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.client-profile .userName{
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: -6px;
+}
+.client-profile .profession{
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+}
 
 
 /*=======================================
@@ -237,6 +276,12 @@ a{
 .right-down-wp{
   margin-top: 48px;
   margin-bottom: 129px;
+}
+.work-project .contant-h5-p h5{
+  width: 328px;
+}
+.work-project .contant-h5-p p{
+  width: 303px;
 }
 /* =======================================
            work project css e
@@ -432,6 +477,9 @@ a{
   background: #F4F6FC;
   padding-bottom: 128px;
 }
+.contant-h2-p h2{
+  padding-top: 128px;
+}
 .d-s-solve .contant-h2-p{
 width: 630px;
 margin: auto;
@@ -440,6 +488,9 @@ margin-bottom: 47px;
 }
 .d-s-solve .contant-h2-p h2{
 text-align: center;
+}
+.d-s-solve p{
+width: 294px !important;
 }
 .d-s-solve .icon{
   width: 35px;
@@ -475,24 +526,40 @@ text-align: center;
 .clinet-reviews{
   background: #F4F6FC;
 }
+.clinet-reviews .all-container{
+  padding-top: 128px;
+}
 .clinet-reviews h6{
-  font-family: Poppins, sans-serif;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 56px;
   width: 327px;
   color: #282938;
-  margin-top: 130px;
   margin-bottom: 16px;
 }
 .clinet-reviews .c-r-left p{
-  font-family: Poppins, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
   width: 327px;
   color: rgba(40, 41, 56, .7);
+  margin-bottom: 192px;
+}
+.clinet-reviews .contant-h5-p h5{
+  margin-bottom: 28px;
 }
 /* =======================================
         client reviews css end
 ========================================= */
+
+/* =======================================
+            FAQ css s
+======================================== */
+.FAQ .c-r-left-h6-p h6{
+  width: 328px;
+}
+.FAQ .c-r-left-h6-p p{
+  font-size: 18px !important;
+  color: #2405f2;
+  padding-top: 16px;
+}
+.FAQ-container{
+  padding-top: 128px;
+}
+/* =======================================
+            FAQ css e
+======================================== */
