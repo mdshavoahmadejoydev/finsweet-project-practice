@@ -23,6 +23,9 @@ a{
 }
 
 
+
+
+
 .contant-h2-p h2{
   width: auto;
   font-family: Poppins, sans-serif;
@@ -209,6 +212,8 @@ a{
   bottom: 3px;
   right: -34px;
 }
+
+
 .heroP-btn:hover i{
   right: -172px;
 }
@@ -359,7 +364,7 @@ a{
 .project-img .position-1object{
   position: relative;
   overflow: hidden;
-  
+  padding-left: 0;
 }
 .project-img .overly-1{
   position: absolute;
@@ -476,44 +481,30 @@ a{
 ========================================= */
 .d-s-solve{
   background: #F4F6FC;
-  padding-bottom: 128px;
-}
-.contant-h2-p h2{
-  padding-top: 128px;
-}
-.d-s-solve .contant-h2-p{
-width: 630px;
-margin: auto;
-margin-top: 168px;
-margin-bottom: 47px;
+  padding: 128px 0px;
 }
 .d-s-solve .contant-h2-p h2{
-text-align: center;
+  width: 630px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 47px;
 }
-.d-s-solve p{
-width: 294px !important;
+.d-s-solve .for-row-gap{
+  row-gap: 13px;
 }
-.d-s-solve .icon{
-  width: 35px;
-  height: 35px;
+.d-s-solve .contant-h5-p h5{
+  padding-top: 22px;
+  padding-bottom: 12px;
 }
-.d-s-solve .icon img{
-  width: 100%;
-  height: 100%;
+.d-s-solve .col-lg-4{
+  padding-left: 0px;
 }
-.d-s-solve h5{
-  font-size: 24px;
-  padding: 22px 0 12px 0;
+.d-s-solve .d-s-solve-color {
+  padding: 58px 72px 48px 70px;
+  background: white;
 }
 
 
-.d-s-solve .d-s-solve-color{
-  background: rgb(255, 255, 255);
-  padding: 58px 32px 48px 32px;
-}
-.d-s-solve .col-lg-12{
-  padding: 58px 32px 48px 48px;
-}
 
 
 
