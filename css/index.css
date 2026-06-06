@@ -67,6 +67,23 @@ a{
 }
 
 
+.comon-h4-p h4{
+  font-size: 54px;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 74px;
+}
+.comon-h4-p p{
+  font-size: 16px;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+
+}
+
+
 
 
 .client-profile .profile-img{
@@ -580,12 +597,142 @@ a{
   margin-right: 59px;
 }
 .FAQ .accordion-body p{
-  margin-left: 83px;
-  padding-bottom: 48px;
+  margin-left: 104px;
+  padding-bottom: 15px;
 }
 .FAQ .accordion-body{
   border-bottom: 1px solid rgb(236, 236, 241);
+  padding: 0px
 }
+
+
+.FAQ .accordion-button:not(.collapsed)::after{
+  background-image: none;
+  content: "-";
+  transform: translateY(-45%) rotate(0) !important;
+  transition: 0.3s ease-in-out;
+}
+.FAQ .accordion-button::after{
+  background-image: none;
+  content: "+";
+  transform: translateY(-45%) rotate(0) !important;
+  transition: 0.2s ease-in-out;
+}
+
 /* =======================================
             FAQ css e
+======================================== */
+
+/* =======================================
+            input css s
+======================================== */
+.input-inf{
+  padding-bottom: 77px;
+}
+.input-inf .input-img-part{
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+
+}
+.input-inf .input-img{
+  width: 649px;
+  height: 691px;
+}
+.input-inf .input-img-part img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.input-inf .input-img-part:hover .overly{
+  top: 0px;
+  opacity: 100%;
+}
+.input-inf .input-img-part .overly{
+  width: 649px;
+  height: 691px;
+  background: rgba(28, 30, 83, 0.5);
+  position: absolute;
+  left: 0px;
+  top: 691px;
+  transition: 0.3s ease-in-out;
+  opacity: 0%;
+}
+.input-inf .comon-h4-p{
+  padding: 96px 96px 261px 96px;
+}
+.input-inf .input-content{
+  width: 50%;
+  background: #1C1E53;
+  padding: 60px 96px 0px 96px;
+  
+}
+
+
+
+.input-inf .input-content h5{
+  color: white;
+}
+.input-inf .input-content p{
+  color: #F4F6FC;
+  padding-top: 17px;
+  padding-bottom: 40px;
+}
+.input-inf .input-content form input{
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 18px 0px 18px 32px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1.5px solid rgba(244, 246, 252, 0.05);
+  color: #F4F6FC;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  outline: none;
+}
+.input-inf .input-content form input::placeholder{
+  color: #F4F6FC;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+.input-inf .input-content button{
+  padding: 16px 150px 16px 150px;
+  background: #FCD980;
+  border: 1px solid transparent;
+  border-radius: 41px;
+  color: #1B1C2B;
+  font-family: Manrope, poppins, sans-serif;
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 35px;
+  transition: 0.3s ease-in-out;
+}
+.input-inf .input-content button:hover{
+  background: transparent;
+  border: 1px solid #FCD980;
+  color: white;
+}
+.input-inf .input-content .box1{
+  justify-content: center;
+  position: relative;
+}
+.input-inf .input-content .box1 a{
+  color: white;
+}
+.input-inf .input-content .box1 a:hover i{
+  right: 21px;
+}
+.input-inf .input-content .box1 i{
+  position: absolute;
+  top: 25%;
+  right: 119px;
+  color: white;
+}
+
+/* =======================================
+            input css e
 ======================================== */
