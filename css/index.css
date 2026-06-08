@@ -23,6 +23,13 @@ a{
 }
 
 
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
 
 
 
@@ -891,6 +898,32 @@ footer .box{
   width: 100%;
   height: 100%;
   vertical-align: top;
+}
+
+
+
+.end{
+  background: white;
+  padding-top: 0px;
+}
+.end .copy-right{
+  width: 50%;
+}
+.end .copy-right p{
+}
+.end .footer-menu{
+  width: 50%;
+}
+.end .footer-menu ul{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 35px;
+}
+.end .footer-menu ul li a{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
 }
 
 /* =======================================
