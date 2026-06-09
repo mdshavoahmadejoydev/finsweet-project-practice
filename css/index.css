@@ -235,8 +235,8 @@ a{
   position: absolute;
   font-size: 16px;
   
-  top: 50%;
-  transform: translateY(-50%) !important;
+  top: 35%;
+
   right: -28px !important;
 }
 
