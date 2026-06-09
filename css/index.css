@@ -234,9 +234,10 @@ a{
   color: white;
   position: absolute;
   font-size: 16px;
+  
   top: 50%;
-  right: -28px !important;
   transform: translateY(-50%) !important;
+  right: -28px !important;
 }
 
 
