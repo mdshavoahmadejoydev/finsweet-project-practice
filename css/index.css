@@ -222,24 +222,26 @@ a{
 .hero-part .heroP-btn{
   color: white;
   margin-left: 17px;
+  position: relative;
+
 }
 
 
 .hero-part .box{
-  position: relative;
-  align-items: center;
   display: inline-block;
 }
-.hero-part .box i{
+.hero-part .box a i{
   color: white;
+  position: absolute;
   font-size: 16px;
-  bottom: 3px;
-  right: -34px;
+  top: 50%;
+  right: -28px !important;
+  transform: translateY(-50%) !important;
 }
 
 
-.heroP-btn:hover i{
-  right: -172px;
+.hero-part .box .heroP-btn:hover i{
+  right: -260px !important;
 }
 
 /*=======================================
@@ -333,22 +335,22 @@ a{
   justify-content: space-between;
   margin-right: 50px;
 }
-.project-img .heroP-btn{
+.project-img .box .heroP-btn{
   color: #282938;
-}
-.project-img .box{
   position: relative;
-  align-items: center;
+  margin-top: 14px;
 }
-.project-img .box i{
+.project-img .box .heroP-btn:hover i{
+  left: 210px !important;
+}
+.project-img .box .heroP-btn i{
   color: #282938;
-  font-size: 16px;
-  bottom: 3px;
-  right: -34px;
+  position: absolute !important;
+  left: 99px !important;
+  bottom: 50% !important;
+  transform: translateY(50%) !important;
 }
-.heroP-btn:hover i{
-  right: -172px;
-}
+
 
 
 
@@ -409,19 +411,18 @@ a{
 
 
 
-.project-img .heroP-btn{
+.project-img .overly-1 .heroP-btn{
   color: #FCD980;
+  position: relative;
 }
 .project-img .overly-1 .box{
-  position: relative;
-  align-items: center;
   display: inline-block;
 }
 .project-img .overly-1 .box i{
   color: #FCD980;
   font-size: 16px;
-  bottom: 3px;
-  right: -34px;
+  top: 0% !important;
+  left: 110px !important;
 }
 .project-img .overly-1 .heroP-btn:hover i{
   right: -172px;
@@ -490,8 +491,12 @@ a{
 .project-img .overly-2 .box i{
   color: #FCD980;
   font-size: 16px;
-  bottom: 3px;
-  right: 170px;
+  top: 0% !important;
+  left: 116px !important;
+}
+.project-img .overly-2 .heroP-btn{
+  position: relative;
+  color: #FCD980;
 }
 .project-img .overly-2 .heroP-btn:hover i{
   right: 83px;
@@ -725,18 +730,21 @@ a{
 }
 .input-inf .input-content .box1{
   justify-content: center;
+}
+.input-inf .input-content .box1 .heroP-btn{
   position: relative;
 }
 .input-inf .input-content .box1 a{
   color: white;
 }
 .input-inf .input-content .box1 a:hover i{
-  right: 21px;
+  right: -142px;
 }
 .input-inf .input-content .box1 i{
   position: absolute;
-  top: 25%;
-  right: 119px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -33px;
   color: white;
 }
 
@@ -744,7 +752,7 @@ a{
             input css e
 ======================================== */
 /* =======================================
-            Blog css s
+            Blog css e
 ======================================== */
 .blog-sec{
   margin-bottom: 179px;
@@ -789,17 +797,16 @@ a{
   color: rgba(40, 41, 56, 0.7);
 }
 .blog-sec .box{
-  position: relative;
-  align-items: center;
   display: inline-block;
 }
 .blog-sec .box .heroP-btn{
+  position: relative;
   color: #282938;
 }
 .blog-sec .box i{
   color: #282938;
   font-size: 16px;
-  bottom: 3px;
+  top: 29% !important;
   right: -28px;
 }
 
@@ -905,11 +912,18 @@ footer .box{
 .end{
   background: white;
   padding-top: 0px;
+  padding: 32px 0px;
 }
 .end .copy-right{
   width: 50%;
 }
 .end .copy-right p{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .end .footer-menu{
   width: 50%;
@@ -918,7 +932,10 @@ footer .box{
   display: flex;
   justify-content: flex-end;
   column-gap: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
 .end .footer-menu ul li a{
   color: #282938;
   font-size: 16px;
