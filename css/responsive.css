@@ -1,4 +1,17 @@
 @media (min-width: 320px) and (max-width: 575px){
+
+  /* ==================================
+          comon part s
+  ================================== */
+  .heroP-btn:focus i{
+    opacity: 0;
+  }
+  /* ==================================
+          comon part d
+  ================================== */
+  /* ==================================
+          nav part s
+  ================================== */
   .navbar .navbar-toggler i{
     color: white;
     font-size: 20px;
@@ -7,6 +20,82 @@
     box-shadow: 0px 0px 0px transparent !important;
     border: none;
   }
+  .navbar-brand {
+    width: 100px !important;
+  }
+  .navbar-brand img {
+    width: 100%;
+  }
+  .navbar .navbar-nav {
+    background: rgb(43, 47, 66) !important;
+    border-radius: 20px !important;
+    text-align: center !important;
+  }
+  .navbar .nav-btn-container {
+    text-align: center !important;
+    padding: 6px 19px !important;
+  }
+  .navbar .nav-btn-container a{
+    padding: 6px 19px !important;
+  }
 
+
+  /* ==================================
+          nav part e
+  ================================== */
+  /* ==================================
+          herro part s
+  ================================== */
+  .hero-part h1 {
+    width: auto;
+    font-size: 25px;
+    line-height: 32px;
+    padding-top: 40px;
+  }
+  .hero-part p {
+    width: auto;
+    padding-top: 5px;
+    margin-bottom: 31px;
+  }
+  .hero-part .hero-btn {
+    font-size: 16px;
+    padding: 4px 11px;
+  }
+  .hero-part .heroP-btn {
+    margin-left: 6px;
+  }
+  .hero-part .heroP-btn {
+    font-size: 11px;
+  }
+  .hero-part .box a i {
+    font-size: 10px;
+    top: 27%;
+    right: -19px !important;
+  }
+  .hero-part .box .heroP-btn:hover i{
+    right: -19px !important;
+  }
+  .hero-part .box .heroP-btn:focus i{
+    right: -160px !important;
+  }
+  .heroP-btn:hover i{
+    opacity: initial;
+  }
+ 
+  .hero-part .heroI img {
+    padding-top: 47px;
+  }
+  .hero-part {
+    background: #1C1E53;
+    padding-bottom: 61px;
+  }
+  .hero-btn:hover {
+    color: black;
+    border: 2px solid transparent;
+    background: #FCD980;
+  }
+  /* ==================================
+          herro part e
+  ================================== */
 
 }
