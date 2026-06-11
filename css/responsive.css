@@ -1,43 +1,61 @@
-@media (min-width: 320px) and (max-width: 575px){
+@media (min-width: 320px) and (max-width: 575.99px){
 
   /* ==================================
           comon part s
   ================================== */
-  .heroP-btn:focus i{
-    opacity: 0;
-  }
+  
   /* ==================================
           comon part d
   ================================== */
   /* ==================================
           nav part s
   ================================== */
-  .navbar .navbar-toggler i{
+  .navbar-toggler{
+    border-color: white;
+  }
+  .navbar .navbar-brand{
+    padding: 13px 0px;
+    width: 118px !important;
+  }
+  .navbar-toggler i{
     color: white;
-    font-size: 20px;
   }
-  .navbar .navbar-toggler{
+  .navbar-toggler:focus{
+    outline: 0px !important;
     box-shadow: 0px 0px 0px transparent !important;
-    border: none;
   }
-  .navbar-brand {
-    width: 100px !important;
+  .navbar-collapse{
+    background: red;
+    border-radius: 10px;
+    margin-top: 20px !important;
   }
-  .navbar-brand img {
-    width: 100%;
+  
+  .navbar-nav{
+    align-items: center;
+    row-gap: 9px;
+    padding: 9px 0;
+    margin: 5px 0;
   }
-  .navbar .navbar-nav {
-    background: rgb(43, 47, 66) !important;
-    border-radius: 20px !important;
-    text-align: center !important;
+  .navbar .nav-item:hover .nav-link{
+    color: #BBBBCB !important;
   }
-  .navbar .nav-btn-container {
-    text-align: center !important;
-    padding: 6px 19px !important;
+  .nav-btn{
+    padding: 12px 34px;
+    font-size: 14px;
+    margin-left: 0px;
+
   }
-  .navbar .nav-btn-container a{
-    padding: 6px 19px !important;
+  .nav-btn-box{
+    text-align: center;
+    margin-bottom: 20px;
   }
+  .navbar .nav-btn:hover{
+    background: transparent !important;
+    color: white;
+    font-weight: 500;
+  }
+
+
 
 
   /* ==================================
@@ -58,7 +76,7 @@
     margin-bottom: 31px;
   }
   .hero-part .hero-btn {
-    font-size: 16px;
+    font-size: 13px;
     padding: 4px 11px;
   }
   .hero-part .heroP-btn {
@@ -96,6 +114,217 @@
   }
   /* ==================================
           herro part e
+  ================================== */
+  /* ==================================
+          work part s
+  ================================== */
+  .work-project h2 {
+    padding-top: 32px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .work-project .contant-h2-p p {
+    padding: 6px 0;
+    margin-bottom: 0px;
+    text-align: center;
+    width: auto;
+  }
+  .work-project .heroP-btn {
+    font-size: 12px;
+  }
+  .work-project .box i {
+    font-size: 11px;
+    bottom: 8px;
+    right: -20px;
+  }
+  .work-project .box{
+    margin-left: 73px !important;
+  }
+  .work-project .heroP-btn:hover i {
+    right: -20px;
+  }
+  .work-project .heroP-btn:focus i {
+    right: -172px;
+  }
+  .work-project .heroP-btn:focus i {
+    opacity: 0;
+  }
+
+
+
+  .work-project .rightPart-Wp {
+    margin-top: 53px;
+  }
+  .work-project .right-down-wp {
+    margin-bottom: 7px;
+    margin-top: 0px;
+  }
+  .work-project .pointerWp {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+  }
+  .work-project .contant-h5-p h5 {
+    font-size: 30px !important;
+  }
+  .work-project .forMarginWp {
+    margin-top: 8px;
+    margin-bottom: -2px;
+  }
+  .contant-h5-p p {
+	font-size: 14px;
+}
+  /* ==================================
+          work part e
+  ================================== */
+  /* ==================================
+          project img part s
+  ================================== */
+  .project-img{
+    margin-bottom: 32px !important;
+  }
+  .project-img .project-img-top div>h2 {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .project-img .project-img-top {
+    margin-top: 37px;
+    margin-bottom: 13px !important;
+  }
+  .project-img .heroP-btn {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .project-img .box .heroP-btn{
+    margin-top: 0px !important;
+  }
+  .project-img .project-img-top {
+    margin-bottom: 13px !important;
+  }
+  .project-img .box .heroP-btn i {
+    left: 58px !important;
+    bottom: 48% !important;
+  }
+  .project-img .box {
+    justify-content: space-between;
+    margin-right: 12px;
+  }
+  .project-img .box .heroP-btn:hover i{
+    left: 58px !important;
+  }
+  .project-img .box .heroP-btn:focus i{
+    left: 100px !important;
+  }
+
+
+
+  .project-img .Card-p-i-1 {
+    width: 319px;
+    height: 226px;
+  }
+  .project-img .overly-1{
+    top: 0;
+    left: 0px !important;
+    padding: 93px 0px 0px 10px !important;
+  }
+  
+  .project-img .overly-1 .title {
+    width: auto;
+    line-height: 17px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .project-img .overly-1 .description {
+    width: auto;
+    line-height: 9px;
+    font-size: 8px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .project-img .heroP-btn {
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .project-img .box .heroP-btn i {
+    left: 48px !important;
+    bottom: 72% !important;
+  }
+  .project-img .overly-1 .box i {
+    font-size: 8px;
+  }
+
+  .project-img .overly-1 .heroP-btn:hover i{
+    left: 48px !important;
+  }
+
+
+  .project-img .p-overly-2{
+    margin-top: 20px;
+  }
+  .project-img .Card-p-i-2 {
+    width: 332px;
+    height: 216px;
+    color: green;
+  }
+  .project-img .col-lg-12{
+    padding-left: 0px !important;
+  }
+  .Card-p-2-3 .p-overly-2{
+    background: red;
+  }
+  .project-img .col-lg-4{
+    padding-left: 0px;
+  }
+  .project-img .overly-2{
+    display: none;
+  }
+
+  /* ==================================
+          project img part e
+  ================================== */
+  /* ==================================
+          Design and solves part s
+  ================================== */
+
+  .d-s-solve{
+    padding: 44px 0px;
+  }
+  .d-s-solve .for-row-gap{
+    margin-left: 0% !important;
+  }
+  .d-s-solve .contant-h2-p h2 {
+    width: auto;
+    padding-bottom: 47px;
+  }
+  .d-s-solve .contant-h2-p h2 {
+    width: auto;
+    line-height: 32px;
+    font-size: 25px;
+  }
+  .d-s-solve .d-s-solve-color {
+    padding: 31px 0px 15px 16px;
+    text-align: center;
+  }
+  .d-s-solve .contant-h5-p h5 {
+    padding-top: 12px;
+    padding-bottom: 0px;
+  }
+  .contant-h5-p h5 {
+    font-size: 27px;
+  }
+  /* ==================================
+          Design and solves part e
+  ================================== */
+  /* ==================================
+          client reviews part s
+  ================================== */
+  
+  /* ==================================
+          client reviews part e
   ================================== */
 
 }
