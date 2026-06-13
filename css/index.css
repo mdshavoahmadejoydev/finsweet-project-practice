@@ -167,6 +167,9 @@ a{
   transition: .2s ease-in-out;
   
 }
+.nav-btn-box{
+  box-sizing: content-box !; 
+}
 .nav-btn:hover{
   background: #FCD980;
   color: black;
@@ -450,6 +453,8 @@ a{
 .Card-p-i-2 img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 
@@ -727,7 +732,7 @@ a{
   border: 1px solid transparent;
   border-radius: 41px;
   color: #1B1C2B;
-  font-family: Manrope, poppins, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 18px;
   margin-top: 16px;
   margin-bottom: 35px;
@@ -837,12 +842,10 @@ footer{
 }
 footer .col-lg-6 .footer-logo{
   width: 158px;
-  height: 38px;
   margin-bottom: 22px;
 }
 footer .col-lg-6 .footer-logo img{
   width: 100%;
-  height: 100%;
 }
 footer .col-lg-6 .contant-h2-p p{
   width: 399px;
@@ -855,6 +858,13 @@ footer .col-lg-6 .overly{
   height: 95px;
   background: #FCD980;
 }
+footer .col-lg-6 .overly .contact-inf .contact-inf-1{
+  width: 50%;
+}
+footer .col-lg-6 .overly .contact-inf .contact-inf-2{
+  width: 50%;
+}
+
 footer .footer-content{
   padding-left: 37px;
   padding-top: 17px;
@@ -952,6 +962,12 @@ footer .box{
   font-weight: 500;
   font-family: Poppins, sans-serif;
 }
+
+
+
+
+
+
 
 /* =======================================
             footer css e
