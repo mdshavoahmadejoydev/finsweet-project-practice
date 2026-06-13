@@ -1173,7 +1173,9 @@
 }
 @media (min-width: 768px) and (max-width: 991.99px){
 
-  
+  .container, .container-sm {
+    max-width: 93%;
+  }
 
   /* ==================================
           nav part s
@@ -1452,7 +1454,7 @@
   }
   .project-img .Card-p-i-2 {
     width: 100%;
-    height: 216px;
+    height: 498px;
     margin-left: 1%;
   }
   .project-img .col-lg-12{
@@ -1487,8 +1489,8 @@
   }
   .d-s-solve .contant-h2-p h2 {
     width: auto;
-    line-height: 32px;
-    font-size: 25px;
+    line-height: 47px;
+    font-size: 33px;
   }
   .d-s-solve .d-s-solve-color {
     padding: 31px 0px 15px 0px;
@@ -1517,7 +1519,7 @@
     /* margin: auto !important; */
   }
   .clinet-reviews .c-r-left-h6-p h6 {
-    font-size: 25px;
+    font-size: 35px;
     line-height: 32px;
     text-align: center;
   }
@@ -1553,19 +1555,19 @@
   .FAQ .c-r-left-h6-p h6 {
     width: auto;
     text-align: center;
-    font-size: 25px;
+    font-size: 34px;
     line-height: 43px;
   }
   .FAQ .c-r-left-h6-p p {
-    font-size: 13px !important;
+    font-size: 19px !important;
     color: #2405f2;
     padding-top: 0px;
     text-align: center;
   }
 
   .FAQ .accordion-button {
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 21px;
+    line-height: 32px;
     align-items: flex-start !important;
     padding-left: 0px !important;
   }
@@ -1576,6 +1578,7 @@
   .FAQ .accordion-body p {
     margin-left: 24px;
     padding-bottom: 0px !important;
+    font-size: 20px;
   }
 
   .FAQ .accordion-button::after {
@@ -1609,7 +1612,7 @@
   }
   .input-inf .input-img {
     width: 100%;
-    height: 321px;
+    height: 560px;
   }
 
   .input-inf .input-content {
@@ -1617,7 +1620,7 @@
     padding: 8px 12px 0px 12px;
   }
   .input-inf .input-content .contant-h5-p h5 {
-    font-size: 25px;
+    font-size: 41px;
     text-align: center;
   }
   .input-inf .input-content p {
@@ -1627,10 +1630,11 @@
     text-align: center;
   }
   .input-inf .input-content form input {
-    padding: 6px 0px 6px 12px;
+    padding: 25px 0px 25px 19px;
   }
+  
   .input-inf .input-content form input::placeholder{
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .input-inf .input-content-1 .button-container{
@@ -1638,7 +1642,7 @@
     justify-content: center;
   }
   .input-inf .input-content button {
-    padding: 5px 20px;
+    padding: 15px 76px;
     font-weight: 600;
     margin: 6px;
   }
@@ -1656,7 +1660,7 @@
   }
   .input-inf .input-content .heroP-btn {
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 15px;
   }
 
 
@@ -1672,7 +1676,7 @@
   }
   .blog-sec .contant-h2-p h2 {
     width: auto;
-    font-size: 32px;
+    font-size: 47px;
     text-align: center;
     margin-bottom: 8px;
   }
@@ -1688,11 +1692,11 @@
   }
   .blog-sec .card-body .card-title {
     margin: 3px 0;
-    font-size: 21px;
+    font-size: 23px;
   }
 
   .heroP-btn {
-    font-size: 14px;
+    font-size: 16px;
   }
   .blog-sec .box i {
     display: none;
@@ -1709,11 +1713,12 @@
     padding-bottom: 20px;
   }
   footer .col-lg-6 .footer-logo {
-    width: 127px;
+    width: 161px;
   }
   footer .col-lg-6 .contant-h2-p p {
     width: auto;
     padding-bottom: 8px;
+    font-size: 21px;
   }
   footer .col-lg-6 .overly {
     width: 100%;
@@ -1767,4 +1772,34 @@
   fotter part e
   ================================== */
   
+}
+@media (min-width: 992px) and (max-width: 1199.99px){
+
+  .navbar .nav-btn{
+    padding: 10px 31px !important;
+  }
+  .hero-part h1 {
+    width: auto;
+  }
+
+  .d-s-solve .d-s-solve-color {
+    padding: 46px 36px 14px 33px;
+  }
+  .clinet-reviews h6 {
+    width: auto;
+    color: #282938;
+    margin-bottom: 16px;
+  }
+  .clinet-reviews .c-r-left p {
+    width: auto;
+  }
+  .contant-h5-p h5 {
+    font-size: 28px;
+  }
+  .input-inf .input-content button {
+    padding: 9px 66px;
+  }
+  .end .footer-menu ul {
+    column-gap: 19px;
+  }
 }
