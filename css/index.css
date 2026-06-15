@@ -1,8 +1,9 @@
 /*=======================================
            common css s
 =========================================*/
-a{
+ul li{
   text-decoration: none;
+  cursor: pointer !important;
 }
 .box{
   display: flex;
@@ -35,28 +36,43 @@ a{
 
 
 
+.content-h1-p h1{
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 74px;
+  font-family: Poppins;
 
-.contant-h2-p h2{
+} 
+
+.content-h1-p  p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: Poppins;
+
+}
+
+.content-h2-p h2{
   width: auto;
   font-family: Poppins, sans-serif;
   line-height: 64px;
   font-weight: 600;
   font-size: 48px;
 }
-.contant-h2-p p{
+.content-h2-p p{
   font-family: Poppins, sans-serif;
   line-height: 28px;
   font-weight: 400;
   font-size: 16px;
 }
 
-.contant-h5-p h5{
+.content-h5-p h5{
   font-family: Poppins, sans-serif;
   line-height: 48px;
   font-weight: 600;
   font-size: 32px;
 }
-.contant-h5-p p{
+.content-h5-p p{
   font-family: Poppins, sans-serif;
   line-height: 28px;
   font-weight: 400;
@@ -188,22 +204,14 @@ a{
   background: #1C1E53;
   padding-bottom: 128px;
 }
-.hero-part h1{
+.content-h1-p h1{
   width: 582px;
   color: white;
-  font-size: 54px;
-  font-weight: 700;
-  line-height: 74px;
-  font-family: Poppins;
   padding-top: 126px;
 }
-.hero-part  p{
+.content-h1-p p{
   width: 562px;
   color: rgba(255, 255, 255, .7);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  font-family: Poppins;
   padding-top: 24px;
   margin-bottom: 48px;
 }
@@ -285,7 +293,7 @@ a{
 .work-project h2{
   padding-top: 128px;
 }
-.work-project .contant-h2-p p{
+.work-project .content-h2-p p{
   padding: 16px 0;
 }
 
@@ -314,10 +322,10 @@ a{
   margin-top: 48px;
   margin-bottom: 129px;
 }
-.work-project .contant-h5-p h5{
+.work-project .content-h5-p h5{
   width: 328px;
 }
-.work-project .contant-h5-p p{
+.work-project .content-h5-p p{
   width: 303px;
 }
 /* =======================================
@@ -513,7 +521,7 @@ a{
   background: #F4F6FC;
   padding: 128px 0px;
 }
-.d-s-solve .contant-h2-p h2{
+.d-s-solve .content-h2-p h2{
   width: 630px;
   text-align: center;
   margin: auto;
@@ -522,7 +530,7 @@ a{
 .d-s-solve .for-row-gap{
   row-gap: 13px;
 }
-.d-s-solve .contant-h5-p h5{
+.d-s-solve .content-h5-p h5{
   padding-top: 22px;
   padding-bottom: 12px;
 }
@@ -561,7 +569,7 @@ a{
   color: rgba(40, 41, 56, .7);
   margin-bottom: 192px;
 }
-.clinet-reviews .contant-h5-p h5{
+.clinet-reviews .content-h5-p h5{
   margin-bottom: 28px;
 }
 /* =======================================
@@ -826,7 +834,7 @@ footer .col-lg-6 .footer-logo{
 footer .col-lg-6 .footer-logo img{
   width: 100%;
 }
-footer .col-lg-6 .contant-h2-p p{
+footer .col-lg-6 .content-h2-p p{
   width: 399px;
   color: rgba(255, 255, 255, 08);
   padding-bottom: 86px;
@@ -864,15 +872,15 @@ footer .footer-content p{
 }
 
 
-.footer-content-right .contant-h2-p h2{
+.footer-content-right .content-h2-p h2{
   color: white;
 }
-.footer-content-right .contant-h2-p p{
+.footer-content-right .content-h2-p p{
   padding: 0px !important;
   
   margin-bottom: 28px;
 }
-footer .footer-content .contant-h2-p p{
+footer .footer-content .content-h2-p p{
   color: #F4F6FC;
   margin-top: 14px;
 }
