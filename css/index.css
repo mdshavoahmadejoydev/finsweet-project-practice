@@ -13,9 +13,12 @@ a{
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+  position: relative;
 }
-.box i{
+.heroP-btn i{
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   transition: .4s ease-in-out;
 }
 .heroP-btn:hover i{
@@ -242,13 +245,8 @@ a{
 .hero-part .box{
   display: inline-block;
 }
-.hero-part .box a i{
-  color: white;
-  position: absolute;
-  font-size: 16px;
-  
-  top: 35%;
-
+.hero-part .heroP-btn i{
+  font-size: 16px !important;
   right: -28px !important;
 }
 
@@ -274,16 +272,10 @@ a{
 .work-project .heroP-btn{
   color: #2405F2;
 }
-.work-project .box{
-  position: relative;
-  align-items: center;
-  display: inline-block;
-}
-.work-project .box i{
-  color: #2405F2;
-  font-size: 16px;
-  bottom: 3px;
+
+.work-project .heroP-btn i{
   right: -34px;
+  font-size: 16px !important;
 }
 .heroP-btn:hover i{
   right: -172px;
@@ -343,6 +335,7 @@ a{
 .project-img .project-img-top{
   margin-top: 128px;
   margin-bottom: 64px;
+  align-items: center
 }
 .project-img .box{
   justify-content: space-between;
@@ -350,18 +343,14 @@ a{
 }
 .project-img .box .heroP-btn{
   color: #282938;
-  position: relative;
-  margin-top: 14px;
 }
 .project-img .box .heroP-btn:hover i{
   left: 210px !important;
 }
 .project-img .box .heroP-btn i{
   color: #282938;
-  position: absolute !important;
+  font-size: 15px !important;
   left: 99px !important;
-  bottom: 50% !important;
-  transform: translateY(50%) !important;
 }
 
 
@@ -426,15 +415,13 @@ a{
 
 .project-img .overly-1 .heroP-btn{
   color: #FCD980;
-  position: relative;
 }
 .project-img .overly-1 .box{
   display: inline-block;
 }
-.project-img .overly-1 .box i{
+.project-img .overly-1 .heroP-btn i{
   color: #FCD980;
-  font-size: 16px;
-  top: 0% !important;
+  font-size: 12px ;
   left: 110px !important;
 }
 .project-img .overly-1 .heroP-btn:hover i{
@@ -503,14 +490,13 @@ a{
 }
 
 
-.project-img .overly-2 .box i{
+.project-img .overly-2 .heroP-btn i{
   color: #FCD980;
-  font-size: 16px;
-  top: 0% !important;
-  left: 116px !important;
+  font-size: 12px !important;
+  left: 110px !important;
 }
 .project-img .overly-2 .heroP-btn{
-  position: relative;
+  font-size: 13px !important;
   color: #FCD980;
 }
 .project-img .overly-2 .heroP-btn:hover i{
@@ -746,9 +732,7 @@ a{
 .input-inf .input-content .box1{
   justify-content: center;
 }
-.input-inf .input-content .box1 .heroP-btn{
-  position: relative;
-}
+
 .input-inf .input-content .box1 a{
   color: white;
 }
@@ -756,9 +740,6 @@ a{
   right: -142px;
 }
 .input-inf .input-content .box1 i{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   right: -33px;
   color: white;
 }
@@ -815,13 +796,11 @@ a{
   display: inline-block;
 }
 .blog-sec .box .heroP-btn{
-  position: relative;
   color: #282938;
 }
 .blog-sec .box i{
   color: #282938;
-  font-size: 16px;
-  top: 29% !important;
+  font-size: 14px !important;
   right: -28px;
 }
 
